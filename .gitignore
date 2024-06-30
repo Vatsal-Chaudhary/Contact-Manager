@@ -106,8 +106,6 @@ dmypy.json
 # PyCharm
 .idea/
 
-# Log files
-*.log
 
 # OS generated files
 .DS_Store

@@ -147,6 +147,8 @@ class LoginWindow(tk.Toplevel):
         self.withdraw()
         register_window = RegisterWindow(self)
         self.wait_window(register_window)
+        if register_window.register_successful:
+            self.login_successful = True
 
 def center_window(root):
     window_width = 1000
